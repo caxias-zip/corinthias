@@ -15,8 +15,11 @@ body{
 section{
     padding: 30px 20px;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1024px;
 }
+
+/*-----------------------------------------------------------------------*/
+/*todas as interações do meu header ficam aqui*/
 .header{
     position: fixed;
     top: 0;
@@ -46,11 +49,13 @@ section{
 }
 
 .icones img{
+    width: 2rem;
     margin: 10px;
     cursor: pointer;
 }
 
 .icones img:hover{
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
+/*-------------------------------------------------------------------------*/
